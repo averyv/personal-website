@@ -1,10 +1,88 @@
 .App {
-  text-align: center;
+  height: 100%;
+  font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+
+.page-footer {
+  height: 7vh;
+  background-color:white;
+  color: black;
+  padding: 0px;
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid black;
+}
+
+.img-wrapper {
+  display: inline-block;
+  background-color:black;
+}
+
+.img-wrapper > img {
+  vertical-align: top;
+  opacity: .6;
+}
+
+.img-wrapper > img:hover {
+  opacity: 1;
+}
+
+.page-content {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  min-height: 85vh;
+  padding-bottom: 100px;
+}
+
+#home-page-content {
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+#home-page-content .project-card { 
+  width:260px;
+}
+
+#home-page-content .project-card .ant-card-cover img {
+  height: 260px;
+  width: 260px;
+}
+
+#home-page-content .project-card .project-card-meta { 
+  height:100px;
+}
+
+#social-icons {
+  margin-left: 10px;
+  margin-top: 5px;
+}
+
+#social-icons img {
+  height: 25px; 
+}
+
+#social-icons img:first-child {
+  margin-right: 15px
+}
+
+#footer-text {
+  margin-right: 10px;
+  margin-top:5px;
+}
+
+.project-card .ant-card-meta-title {
+  text-align: center;
+}
+
+#home-page-content a {
+  margin-top: 20px;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -14,18 +92,102 @@
 }
 
 .App-header {
-  background-color: #282c34;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+}
+
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 20px;
+  padding-right: 0px;
+  background-color: white;
+  border-bottom: 1px solid black;
+}
+
+.nav-link:first-child {
+  margin-right: 25px;
+  margin-left: 25px;
+}
+
+#vibe-diner-container .ant-layout-sider {
+  width: 30px;
+}
+
+.ant-layout .image-sider {
+  width: 30vw;
+}
+
+.header-text {
+  color: black;
+  font-size: 16px;
+}
+
+.header-text-selected {
+  color:white;
+  font-size: 16px;
+}
+
+#nav-link-container {
+  display: flex;
+}
+
+.nav-link-selected {
+  background-color: black;
+}
+
+.nav-link-unselected:hover {
+  background-color: lightgray;
+}
+
+#about-page-content {
+  display:flex;
+  flex-direction:row;
+}
+
+#about-page-content img {
+  margin:20px;
+  margin-left:0px;
+  height: 350px;
+}
+
+.page-content #vibe-diner-description, .page-content #valyou-description, .page-content #blog-description, .page-content #about-description {
+  margin-left: 2.5%;
+  margin-right: 5%;
 }
 
 .App-link {
   color: #61dafb;
+}
+
+#valyou-screenshots {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+#valyou-screenshots img {
+  height: 450px;
+}
+
+.website-screenshots img {
+  margin-bottom: 20px;
+  width: 500px;
+}
+
+.website-screenshots {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+#vibe-diner-container .page-content {
+  padding-bottom: 80px;
 }
 
 @keyframes App-logo-spin {
