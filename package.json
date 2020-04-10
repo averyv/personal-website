@@ -4,7 +4,7 @@
   "main": "src/index.js",
   "repository": "https://github.com/averyv/personal-website.git",
   "private": true,
-  "homepage": "https://avery-e-vanacore.me",
+  "homepage": "https://averyvanacore.com",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
