@@ -4,7 +4,7 @@
   "main": "src/index.js",
   "repository": "https://github.com/averyv/personal-website.git",
   "private": true,
-  "homepage": "https://averyevanacore.com",
+  "homepage": "https://averyv.github.io/personal-website/",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
