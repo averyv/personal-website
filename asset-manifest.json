@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/personal-website/static/css/main.8192348e.chunk.css",
+    "main.js": "/personal-website/static/js/main.a3be1ce2.chunk.js",
+    "main.js.map": "/personal-website/static/js/main.a3be1ce2.chunk.js.map",
+    "runtime-main.js": "/personal-website/static/js/runtime-main.741e8f83.js",
+    "runtime-main.js.map": "/personal-website/static/js/runtime-main.741e8f83.js.map",
+    "static/css/2.d788185a.chunk.css": "/personal-website/static/css/2.d788185a.chunk.css",
+    "static/js/2.d1fcfe07.chunk.js": "/personal-website/static/js/2.d1fcfe07.chunk.js",
+    "static/js/2.d1fcfe07.chunk.js.map": "/personal-website/static/js/2.d1fcfe07.chunk.js.map",
+    "index.html": "/personal-website/index.html",
+    "precache-manifest.b237126f7d183666944b94dca647c6f0.js": "/personal-website/precache-manifest.b237126f7d183666944b94dca647c6f0.js",
+    "service-worker.js": "/personal-website/service-worker.js",
+    "static/css/2.d788185a.chunk.css.map": "/personal-website/static/css/2.d788185a.chunk.css.map",
+    "static/css/main.8192348e.chunk.css.map": "/personal-website/static/css/main.8192348e.chunk.css.map",
+    "static/js/2.d1fcfe07.chunk.js.LICENSE.txt": "/personal-website/static/js/2.d1fcfe07.chunk.js.LICENSE.txt",
+    "static/media/blog-home.png": "/personal-website/static/media/blog-home.079fb6f7.png",
+    "static/media/blog-specific.png": "/personal-website/static/media/blog-specific.375bb138.png",
+    "static/media/blog.png": "/personal-website/static/media/blog.1a21c4f5.png",
+    "static/media/landing-page-2.png": "/personal-website/static/media/landing-page-2.082a979d.png",
+    "static/media/landing-page-logo.svg": "/personal-website/static/media/landing-page-logo.cb05bb8d.svg",
+    "static/media/landing-page.png": "/personal-website/static/media/landing-page.d909a3f6.png",
+    "static/media/logo.png": "/personal-website/static/media/logo.7e9fa9f3.png",
+    "static/media/personal-photo.jpg": "/personal-website/static/media/personal-photo.f558b19c.jpg",
+    "static/media/valyou-home-tab.png": "/personal-website/static/media/valyou-home-tab.0e3cd6c8.png",
+    "static/media/valyou-home.png": "/personal-website/static/media/valyou-home.c06927b0.png",
+    "static/media/valyou-progress.png": "/personal-website/static/media/valyou-progress.15424de0.png",
+    "static/media/valyou-sort.png": "/personal-website/static/media/valyou-sort.88adf17b.png",
+    "static/media/vibe-diner-feed.png": "/personal-website/static/media/vibe-diner-feed.5ed10dd2.png",
+    "static/media/vibe-diner-home.png": "/personal-website/static/media/vibe-diner-home.35b2b31e.png",
+    "static/media/vibe-diner-messages.png": "/personal-website/static/media/vibe-diner-messages.553bf5b8.png",
+    "static/media/vibe-diner-profile.png": "/personal-website/static/media/vibe-diner-profile.e8ac7a17.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.741e8f83.js",
+    "static/css/2.d788185a.chunk.css",
+    "static/js/2.d1fcfe07.chunk.js",
+    "static/css/main.8192348e.chunk.css",
+    "static/js/main.a3be1ce2.chunk.js"
+  ]
+}
