@@ -1,24 +1,32 @@
 import React from 'react';
-import logo from './logo.svg';
+import { BrowserRouter as Router, Route, Switch, } from 'react-router-dom';
+import Home from './components/homePage';
+import VibeDiner from './components/vibeDiner';
+import ValYou from './components/valYou';
+import About from './components/about';
+import Blog from './components/blog';
+import LandingPage from './components/landingPage';
+// import Notes from './components/notes';
+
+import 'antd/dist/antd.css';
 import './App.css';
 
-function App() {
+const App = () => {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Router>
+        <div>
+          <Switch>
+            <Route exact path="/" component = {Home} />
+            <Route path="/vibe-diner" component = {VibeDiner} />
+            <Route path="/valyou" component = {ValYou} />
+            <Route path="/about" component={About}/>
+            <Route path="/blog" component={Blog}/>
+            <Route path="/landing-page" component={LandingPage}/>
+            {/* <Route path="/notes" component={Notes}/> */}
+          </Switch>
+        </div>
+      </Router>
     </div>
   );
 }
